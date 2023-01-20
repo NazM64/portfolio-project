@@ -46,11 +46,13 @@ h2 {
   line-height: 1.5;
 }
 .about-section,
-.work-section {
+.work-section,
+.contact-section {
   padding: 160px 20px;
 }
 .about-section h1,
-.work-section h1 {
+.work-section h1,
+.contact-section h1 {
   font-size: 64px;
   line-height: 80px;
 }
@@ -59,15 +61,19 @@ h2 {
   font-family: var(--default-font-family);
 }
 .about-section-content,
-.work-section-content {
+.work-section-content,
+.contact-section-content {
   margin: 30px;
 }
-.work-content h3 {
+.work-section-content h3,
+.contact-section-content h3 {
   font-size: 24px;
   font-family: var(--default-font-family);
   font-weight: bold;
+  line-height: 1.5;
 }
-.work-content p {
+.work-section-content p,
+.contact-section-content p {
   font-size: 14px;
   font-family: var(--default-font-family);
 }
@@ -110,7 +116,8 @@ h2 {
     text-align: center;
   }
   .about-section,
-  .work-section {
+  .work-section,
+  .contact-section {
     text-align: center;
     padding: 0;
   }
