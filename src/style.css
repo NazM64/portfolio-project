@@ -119,6 +119,17 @@ h4 {
   line-height: 27px;
   padding: 15px 30px;
 }
+.btn-contact:hover,
+.btn-projects:hover {
+  color: black;
+  background-color: var(--btn-color);
+}
+.btn-yogurt:hover,
+.btn-weather:hover,
+.btn-dictionary:hover {
+  color: black;
+  border: 1px solid var(--btn-color);
+}
 .project-description {
   padding: 100px 60px;
 }
