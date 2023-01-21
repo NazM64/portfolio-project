@@ -119,8 +119,11 @@ h2 {
     font-size: 44px;
   }
 
-  .introduction {
-    padding: 60px 20px;
+  .introduction,
+  .about-section-content,
+  .work-section-content,
+  .contact-section-content {
+    padding: 120px 20px;
   }
   .project-description {
     padding: 0;
