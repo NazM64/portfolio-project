@@ -33,6 +33,9 @@ h1 {
 h2 {
   font-size: 64px;
 }
+h4 {
+  font-size: 48px;
+}
 .logo {
   max-height: 40px;
 }
@@ -110,6 +113,39 @@ h2 {
 .project-description {
   padding: 100px 60px;
 }
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background-color: var(--head-bg-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+footer .email-link:hover {
+  color: var(--btn-color);
+}
+footer .social-links a {
+  font-size: 18px;
+  color: var(--btn-color);
+  background: var(--head-bg-color);
+  margin: 0 20px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  transform: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--btn-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -117,6 +153,9 @@ h2 {
   }
   h2 {
     font-size: 44px;
+  }
+  h4 {
+    font-size: 18px;
   }
 
   .introduction,
