@@ -193,5 +193,9 @@ footer .social-links a:hover {
   .contact-section {
     text-align: center;
     padding: 0;
+    overflow-x: hidden;
+  }
+  .patricia-logo {
+    width: 100%;
   }
 }
